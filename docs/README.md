@@ -1,3 +1,3 @@
-# Headline
+# About Glide
 
 > An awesome project.
