@@ -31,4 +31,4 @@ INTEGRATION LIBRARIES
 DEVELOPERS
   - [Snapshots](Snapshots.md)
   - [Contributing](Contributing.md)
-  - [Open source Licenses](Open_source_licenses.md)
+  - [Open source Licenses](Open_source_Licenses.md)
