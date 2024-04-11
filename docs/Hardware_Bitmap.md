@@ -1,15 +1,15 @@
 
 
-## **Hardware Bitmaps **
+## **Hardware Bitmaps**
 
 
 
-* [What are hardware Bitmaps?](https://bumptech.github.io/glide/doc/hardwarebitmaps.html#what-are-hardware-bitmaps)
-* [Why should we use hardware Bitmaps?](https://bumptech.github.io/glide/doc/hardwarebitmaps.html#why-should-we-use-hardware-bitmaps)
-* [How do we enable hardware Bitmaps?](https://bumptech.github.io/glide/doc/hardwarebitmaps.html#how-do-we-enable-hardware-bitmaps)
-* [How do we disable hardware Bitmaps?](https://bumptech.github.io/glide/doc/hardwarebitmaps.html#how-do-we-disable-hardware-bitmaps)
-* [What’s broken when we use hardware Bitmaps?](https://bumptech.github.io/glide/doc/hardwarebitmaps.html#whats-broken-when-we-use-hardware-bitmaps)
-* [What’s less efficient when we use hardware Bitmaps?](https://bumptech.github.io/glide/doc/hardwarebitmaps.html#whats-less-efficient-when-we-use-hardware-bitmaps)
+* [What are hardware Bitmaps?](#what-are-hardware-bitmaps)
+* [Why should we use hardware Bitmaps?](#why-should-we-use-hardware-bitmaps)
+* [How do we enable hardware Bitmaps?](#how-do-we-enable-hardware-bitmaps)
+* [How do we disable hardware Bitmaps?](#how-do-we-disable-hardware-bitmaps)
+* [What’s broken when we use hardware Bitmaps?](#whats-broken-when-we-use-hardware-bitmaps)
+* [What’s less efficient when we use hardware Bitmaps?](#whats-less-efficient-when-we-use-hardware-bitmaps)
 
 ### **What are hardware Bitmaps?**
 
