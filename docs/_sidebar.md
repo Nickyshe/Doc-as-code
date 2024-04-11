@@ -1,4 +1,4 @@
-- [Home](Home.md)
+- [Home](README.md)
 DOCUMENTATION
   - [Download & Setup](Download_Setup.md)
   - [Getting Started](Getting_Started.md)
