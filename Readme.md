@@ -1,1 +1,1 @@
-This is a replica
+This is a replication of the documetation site for the Android Glide Library V4 using Docsify.
