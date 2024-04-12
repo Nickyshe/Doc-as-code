@@ -146,7 +146,7 @@ If you’d just like to update the entry for an item in the cache, see the docum
 
 #### **Implementation**
 
-If the available options aren’t sufficient for your needs, you can also write your own <code>[DiskCache](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/load/engine/cache/DiskCache.html)</code> implementation. See the [configuration](https://nickyshe.github.io/Glide-V4/#/Configurations) page for details.
+If the available options aren’t sufficient for your needs, you can also write your own <code>[DiskCache](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/load/engine/cache/DiskCache.html)</code> implementation. See the [configuration](https://nickyshe.github.io/Glide-V4/#/Configurations#disk-cache) page for details.
 
 
 ### **Cache Invalidation**

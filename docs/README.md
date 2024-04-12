@@ -30,7 +30,7 @@ Aggressive re-use of resources like byte arrays and Bitmaps minimizes expensive 
 Deep lifecycle integration ensures that only requests for active Fragments and Activities are prioritized and that Applications release resources when necessary to avoid being killed when backgrounded.
 
 # **Getting Started**
-Start by visiting the [Download and Setup](https://nickyshe.github.io/Doc-as-code/#/Download_Setup) page to learn how to integrate Glide in to your app. Then take a look at the Getting Started page to learn the basics. For more help and examples, continue on through the rest of the Documentation section, or take a look at one of our many sample apps.
+Start by visiting the [Download and Setup](https://nickyshe.github.io/Glide-V4/#/Download_Setup) page to learn how to integrate Glide in to your app. Then take a look at the Getting Started page to learn the basics. For more help and examples, continue on through the rest of the Documentation section, or take a look at one of our many sample apps.
 
 # **Requirements**
 Glide v4 requires Android [Ice Cream Sandwich](https://developer.android.com/about/versions/android-4.0-highlights.html) (API level 14) or higher.

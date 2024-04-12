@@ -223,7 +223,7 @@ Glide requires Java 11 to compile, but produces Java 7 compatible source (except
 
 #### **Configuring Glide / Annotation Processors**
 
-To [configure](https://bumptech.github.io/glide/doc/configuration.html) Glide, you’ll need to include one of Glide’s annotation processing libraries.
+To [configure](https://nickyshe.github.io/Glide-V4/#/Configurations) Glide, you’ll need to include one of Glide’s annotation processing libraries.
 
 
 ##### **Java**
@@ -292,4 +292,4 @@ ksp 'com.github.bumptech.glide:ksp:4.14.2'
 ```
 
 
-**Note** - The KSP processor does not support Glide’s deprecated generated API. If you reference generated classes (`GlideApp`, `GlideRequests` etc), you will need to replace them with the non-generated equivalents before you can use KSP. See the [Generated API](https://bumptech.github.io/glide/doc/generatedapi.html) page for details.
+**Note** - The KSP processor does not support Glide’s deprecated generated API. If you reference generated classes (`GlideApp`, `GlideRequests` etc), you will need to replace them with the non-generated equivalents before you can use KSP. See the [Generated API](https://nickyshe.github.io/Glide-V4/#/Generated_API) page for details.

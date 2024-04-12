@@ -51,7 +51,7 @@ Applications that wish to use integration libraries and/or Glide’s API extensi
 1. Add exactly one <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> implementation
 2. Optionally add one or more <code>[LibraryGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/LibraryGlideModule.html)</code> implementations.
 3. Add the <code>[@GlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/annotation/GlideModule.html)</code> annotation to the <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> implementation and all <code>[LibraryGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/LibraryGlideModule.html)</code> implementations.
-4. [Add a dependency on Glide’s annotation processor.](https://bumptech.github.io/glide/doc/download-setup.html#configuring-glide--annotation-processors)
+4. [Add a dependency on Glide’s annotation processor.](https://nickyshe.github.io/Glide-V4/#/Download_Setup#configuring-glide--annotation-processors)
 
 An example <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> from Glide’s [Flickr sample app](https://github.com/bumptech/glide/blob/master/samples/flickr/src/main/java/com/bumptech/glide/samples/flickr/FlickrGlideModule.java) looks like this:
 

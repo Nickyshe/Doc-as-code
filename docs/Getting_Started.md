@@ -73,7 +73,7 @@ Glide.with(fragment)
 
 
 
-Glide’s API can be further extended to include custom options using Glide’s [generated API](https://bumptech.github.io/glide/doc/generatedapi.html) for advanced use cases.
+Glide’s API can be further extended to include custom options using Glide’s [generated API](https://nickyshe.github.io/Glide-V4/#/Generated_API) for advanced use cases.
 
 
 ### **ListView and RecyclerView**
@@ -146,7 +146,7 @@ Glide.with(context)
 
 
 
-There are a few gotchas with using custom `Target`s, so be sure to check out the [Targets docs page](https://bumptech.github.io/glide/doc/targets.html) for details.
+There are a few gotchas with using custom `Target`s, so be sure to check out the [Targets docs page](https://nickyshe.github.io/Glide-V4/#/Targets) for details.
 
 
 ### **Background Threads**
