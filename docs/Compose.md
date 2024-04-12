@@ -55,7 +55,7 @@ GlideImage(
 
 You can also provide the `alignment`, `contentScale`, `colorFilter`, and `alpha` parameters that have identical defaults and function identically to the same parameters in [Compose’s Image](https://developer.android.com/reference/kotlin/androidx/compose/foundation/package-summary#Image(androidx.compose.ui.graphics.painter.Painter,kotlin.String,androidx.compose.ui.Modifier,androidx.compose.ui.Alignment,androidx.compose.ui.layout.ContentScale,kotlin.Float,androidx.compose.ui.graphics.ColorFilter)).
 
-To configure the Glide load, you can provide a `RequestBuilderTransformation` function. The function will be passed a `RequestBuilder` that already has `load()` called on it with your given model. You can then customize the request with any normal [Glide option](https://bumptech.github.io/glide/doc/options.html) except for Transitions (see below for details).
+To configure the Glide load, you can provide a `RequestBuilderTransformation` function. The function will be passed a `RequestBuilder` that already has `load()` called on it with your given model. You can then customize the request with any normal [Glide option](https://nickyshe.github.io/Glide-V4/#/Options ) except for Transitions (see below for details).
 
 
 ```

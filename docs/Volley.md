@@ -7,7 +7,7 @@ Typically you will either want to disable Volley’s disk cache or Glide’s dis
 
 #### **How do I include the Volley integration library?**
 
-First make sure you’ve followed the [setup instructions](https://bumptech.github.io/glide/doc/configuration.html#applications) for Applications.
+First make sure you’ve followed the [setup instructions](https://nickyshe.github.io/Glide-V4/#/Configurations#applications) for Applications.
 
 Then add a Gradle dependency on the Volley integration library:
 
@@ -19,4 +19,4 @@ implementation "com.github.bumptech.glide:volley-integration:4.14.2"
 
 Adding a Gradle dependency on the Volley integration library will cause Glide to start automatically using Volley to load images for all http and https urls.
 
-For more details on the automatic registration of integration libraries and answers to common questions, see the [About section](https://bumptech.github.io/glide/int/about.html) for integration libraries.
+For more details on the automatic registration of integration libraries and answers to common questions, see the [About section](https://nickyshe.github.io/Glide-V4/#/About) for integration libraries.

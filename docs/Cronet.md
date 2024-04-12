@@ -23,4 +23,4 @@ implementation "com.github.bumptech.glide:cronet-integration:4.14.2"
 
 Adding a Gradle dependency on the Cronet integration library will cause Glide to start automatically using Cronet to load all images from http and https urls.
 
-For more details on the automatic registration of integration libraries and answers to common questions, see the [About section](https://bumptech.github.io/glide/int/about.html) for integration libraries.
+For more details on the automatic registration of integration libraries and answers to common questions, see the [About section](https://nickyshe.github.io/Glide-V4/#/About) for integration libraries.

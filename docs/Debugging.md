@@ -3,21 +3,21 @@
 
 
 
-* [Local Logs](https://bumptech.github.io/glide/doc/debugging.html#local-logs)
-    * [Request errors](https://bumptech.github.io/glide/doc/debugging.html#request-errors)
-    * [Unexpected cache misses](https://bumptech.github.io/glide/doc/debugging.html#unexpected-cache-misses)
-    * [RequestListener and custom logs](https://bumptech.github.io/glide/doc/debugging.html#requestlistener-and-custom-logs)
-* [Missing images and local logs](https://bumptech.github.io/glide/doc/debugging.html#missing-images-and-local-logs)
-    * [Failing to start the request.](https://bumptech.github.io/glide/doc/debugging.html#failing-to-start-the-request)
-    * [Missing Size](https://bumptech.github.io/glide/doc/debugging.html#missing-size)
-        * [Custom Targets](https://bumptech.github.io/glide/doc/debugging.html#custom-targets)
-        * [Views](https://bumptech.github.io/glide/doc/debugging.html#views)
-* [Out of memory errors](https://bumptech.github.io/glide/doc/debugging.html#out-of-memory-errors)
-    * [Excessively large allocations.](https://bumptech.github.io/glide/doc/debugging.html#excessively-large-allocations)
-    * [Memory leaks.](https://bumptech.github.io/glide/doc/debugging.html#memory-leaks)
-* [Other common issues](https://bumptech.github.io/glide/doc/debugging.html#other-common-issues)
-    * [“You can’t start or clear loads in RequestListener or Target callbacks”](https://bumptech.github.io/glide/doc/debugging.html#you-cant-start-or-clear-loads-in-requestlistener-or-target-callbacks)
-    * [“cannot resolve symbol ‘GlideApp’”](https://bumptech.github.io/glide/doc/debugging.html#cannot-resolve-symbol-glideapp)
+* [Local Logs](#local-logs)
+    * [Request errors](#request-errors)
+    * [Unexpected cache misses](#unexpected-cache-misses)
+    * [RequestListener and custom logs](#requestlistener-and-custom-logs)
+* [Missing images and local logs](#missing-images-and-local-logs)
+    * [Failing to start the request.](#failing-to-start-the-request)
+    * [Missing Size](#missing-size)
+        * [Custom Targets](#custom-targets)
+        * [Views](#views)
+* [Out of memory errors](#out-of-memory-errors)
+    * [Excessively large allocations.](#excessively-large-allocations)
+    * [Memory leaks.](#memory-leaks)
+* [Other common issues](#other-common-issues)
+    * [“You can’t start or clear loads in RequestListener or Target callbacks”](#you-cant-start-or-clear-loads-in-requestlistener-or-target-callbacks)
+    * [“cannot resolve symbol ‘GlideApp’”](#cannot-resolve-symbol-glideapp)
 
 ### **Local Logs**
 
@@ -53,7 +53,7 @@ You can also control the verbosity of the Glide log tag programmatically using <
 #### **Unexpected cache misses**
 
 
-For details on how Glide’s caching works, see [the Caching page](https://bumptech.github.io/glide/doc/caching.html).
+For details on how Glide’s caching works, see [the Caching page](https://nickyshe.github.io/Glide-V4/#/Caching).
 
 
 The <code>[Engine](https://github.com/bumptech/glide/blob/6b137c2b1d4b2ab187ea2aa56834dea039daa090/library/src/main/java/com/bumptech/glide/load/engine/Engine.java#L33)</code> log tag provides details on how a request will be fulfilled and includes the full in memory cache key used to store the corresponding resource. If you’re trying to debug why images you have in memory in one place aren’t being used in another place, the <code>Engine</code> tag lets you compare the cache keys directly to see the differences.
@@ -240,7 +240,7 @@ Glide.with(fragment)
 #### **“cannot resolve symbol ‘GlideApp’”**
 
 
-When using the generated API, you may run into errors that prevent the annotation processor from generating Glide’s API. Sometimes these errors are related to [your setup](https://bumptech.github.io/glide/doc/generatedapi.html), but other times they can be completely unrelated.
+When using the generated API, you may run into errors that prevent the annotation processor from generating Glide’s API. Sometimes these errors are related to [your setup](https://nickyshe.github.io/Glide-V4/#/Download_Setup), but other times they can be completely unrelated.
 
 
 Often unrelated failures are hidden by the number of non root cause error messages. There may be so many other errors that you’ll be unable to find the root cause in your build logs. If this happens and you’re using Gradle, try adding the following to increase the number of error messages Gradle will print:

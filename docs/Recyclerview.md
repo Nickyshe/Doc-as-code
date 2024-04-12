@@ -142,7 +142,7 @@ private class MyPreloadModelProvider implements PreloadModelProvider {
 ```
 
 
-It’s critical that the `RequestBuilder` returned from `getPreloadRequestBuilder` use exactly the same set of options (placeholders, transformations etc) and exactly the same size as the request you start in `onBindViewHolder`. If any of the options aren’t exactly the same in the two methods for a given position, your preload request will be wasted because the image it loads will be cached with a cache key that doesn’t match the cache key of the image you load in `onBindViewHolder`. If you have trouble getting these cache keys to match, see the [debugging page](https://bumptech.github.io/glide/doc/debugging.html#unexpected-cache-misses).
+It’s critical that the `RequestBuilder` returned from `getPreloadRequestBuilder` use exactly the same set of options (placeholders, transformations etc) and exactly the same size as the request you start in `onBindViewHolder`. If any of the options aren’t exactly the same in the two methods for a given position, your preload request will be wasted because the image it loads will be cached with a cache key that doesn’t match the cache key of the image you load in `onBindViewHolder`. If you have trouble getting these cache keys to match, see the [debugging page](https://nickyshe.github.io/Glide-V4/#/Debugging#unexpected-cache-misses).
 
 If you have nothing to preload for a given position, you can return an empty list from `getPreloadItems`. If you later discover that you’re unable to create a `RequestBuilder` for a given `Model`, you may return `null` from `getPreloadRequestBuilder`.
 

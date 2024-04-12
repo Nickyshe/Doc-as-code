@@ -9,7 +9,7 @@ OkHttp is a lower level networking library than Volley. It’s meant more as a r
 
 #### **How do I include the OkHttp3 integration library?**
 
-First make sure you’ve followed the [setup instructions](https://bumptech.github.io/glide/doc/configuration.html#applications) for Applications.
+First make sure you’ve followed the [setup instructions](https://nickyshe.github.io/Glide-V4/#/Configurations#applications) for Applications.
 
 Then add a Gradle dependency on the OkHttp integration library:
 

@@ -28,7 +28,7 @@ This section provides information about each available integration library maint
 There are three parts to depending on any integration library:
 
 1. Include the corresponding Maven, Gradle, or jar dependency in your build. Integration libraries are optional and not included in either Glide’s jar or maven dependency.
-2. Follow the [setup steps for Applications on the configurations page](https://bumptech.github.io/glide/doc/configuration.html#applications), and be sure to include an `AppGlideModule` and a dependency on Glide’s annotation processor.
+2. Follow the [setup steps for Applications on the configurations page](https://nickyshe.github.io/Glide-V4/#/Configurations), and be sure to include an `AppGlideModule` and a dependency on Glide’s annotation processor.
 3. Include a dependency on the integration library itself, if you’re using Maven or Gradle, or add the jar for the integration library to your project. \
 Most integration libraries will start to work automatically thanks to Glide’s annotation processor and the <code>[LibraryGlideModule](https://bumptech.github.io/glide/doc/configuration.html#libraries)</code> in each integration library. Specific dependencies and integration steps are listed on each integration libraries page in this section.
 
@@ -84,10 +84,10 @@ implementation (com.github.bumptech.glide:okhttp-integration:4.11.0) {
 
 #### **What if I want to depend on an integration library, but I want to register its ModelLoaders or other components myself?**
 
- By default, most integration libraries will have a <code>[LibraryGlideModule](https://bumptech.github.io/glide/doc/configuration.html#libraries)</code> that will automatically register the components of that library when you add a dependency on the project. Sometimes it’s useful to be able to exclude some of those default components, register them in a different order, or customize them. To do so, you’ll need to:
+ By default, most integration libraries will have a <code>[LibraryGlideModule](https://nickyshe.github.io/Glide-V4/#/Configurations)</code> that will automatically register the components of that library when you add a dependency on the project. Sometimes it’s useful to be able to exclude some of those default components, register them in a different order, or customize them. To do so, you’ll need to:
 
 Prevent the default `LibraryGlideModule` from being included by Glide’s annotation processor \
-To do so, add an <code>[@Excludes](https://bumptech.github.io/glide/javadocs/431/com/bumptech/glide/annotation/Excludes.html)</code> annotation to your <code>[AppGlideModule](https://bumptech.github.io/glide/doc/configuration.html#conflicts)</code> that references the <code>LibraryGlideModule</code> class you’d like to exclude: \
+To do so, add an <code>[@Excludes](https://bumptech.github.io/glide/javadocs/431/com/bumptech/glide/annotation/Excludes.html)</code> annotation to your <code>[AppGlideModule](https://nickyshe.github.io/Glide-V4/#/Configurations#conflicts)</code> that references the <code>LibraryGlideModule</code> class you’d like to exclude: \
 <code>@Excludes(com.example.unwanted.GlideModule.class)</code>
 
 

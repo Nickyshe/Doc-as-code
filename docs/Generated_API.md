@@ -18,7 +18,7 @@
 ## **This page and the generated API are deprecated**
 
 
-The generated API is deprecated as of Glide 4.14.0. Glide’s annotation processors will continue to be used for [configuration](https://bumptech.github.io/glide/doc/configuration.html).
+The generated API is deprecated as of Glide 4.14.0. Glide’s annotation processors will continue to be used for [configuration](https://nickyshe.github.io/Glide-V4/#/Configurations).
 
 
 Specifically:
@@ -30,7 +30,7 @@ Specifically:
     * Instead of <code>GlideRequest</code>, use <code>com.bumptech.glide.RequestBuilder</code>
     * Instead of <code>GlideOptions</code>, use <code>com.bumptech.glide.request.RequestOptions</code>
 
-    You should continue to use the annotation processors and <code>AppGlideModule</code> or <code>LibraryGlideModule</code> classes as necessary to [configure Glide](https://bumptech.github.io/glide/doc/configuration.html). Configuration using these classes and annotation processing is <em>NOT</em> deprecated.
+    You should continue to use the annotation processors and <code>AppGlideModule</code> or <code>LibraryGlideModule</code> classes as necessary to [configure Glide](https://nickyshe.github.io/Glide-V4/#/Configurations). Configuration using these classes and annotation processing is <em>NOT</em> deprecated.
 
 
     The generated API is deprecated because:
@@ -96,7 +96,7 @@ public final class MyAppGlideModule extends AppGlideModule {}
 <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> implementations must always be annotated with <code>[@GlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/annotation/GlideModule.html)</code>. If the annotation is not present, the module will not be discovered and you will see a warning in your logs with the <code>Glide</code> log tag that indicates that the module couldn’t be found.
 
 
-**Note:** Libraries should **not** include <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> implementations. See the [configuration](https://bumptech.github.io/glide/doc/configuration.html#avoid-appglidemodule-in-libraries) page for details.
+**Note:** Libraries should **not** include <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> implementations. See the [configuration](https://nickyshe.github.io/Glide-V4/#/Configurations) page for details.
 
 
 ####  **Kotlin**
@@ -104,7 +104,7 @@ public final class MyAppGlideModule extends AppGlideModule {}
 
 If you’re using Kotlin you can:
 
-1. [Add a dependency on Glide’s annotation processor](https://bumptech.github.io/glide/doc/download-setup.html)
+1. [Add a dependency on Glide’s annotation processor](https://nickyshe.github.io/Glide-V4/#/Download_Setup)
 2. Implement all of Glide’s annotated classes (<code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code>, <code>[LibraryGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/LibraryGlideModule.html)</code>, and <code>[GlideExtension](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/annotation/GlideExtension.html)</code>) in Java as shown above.
 
 #### <strong>Android Studio</strong>

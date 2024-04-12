@@ -101,7 +101,7 @@ Glide.get(context).getBitmapPool();
 
 
 
-Similarly users who want more control over `Bitmap` pooling are free to implement their own <code>[BitmapPool](https://bumptech.github.io/glide/javadocs/431/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.html)</code>, which they can then provide to Glide using a <code>GlideModule</code>. See the [configuration page](https://bumptech.github.io/glide/doc/configuration.html#bitmap-pool) for details.
+Similarly users who want more control over `Bitmap` pooling are free to implement their own <code>[BitmapPool](https://bumptech.github.io/glide/javadocs/431/com/bumptech/glide/load/engine/bitmap_recycle/BitmapPool.html)</code>, which they can then provide to Glide using a <code>GlideModule</code>. See the [configuration page](https://nickyshe.github.io/Glide-V4/#/Configurations) for details.
 
 
 ## **Common errors**

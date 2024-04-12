@@ -27,7 +27,7 @@
 ## <strong>Options</strong>
 
 
-One of the larger changes in Glide v4 is the way the library handles options (`centerCrop()`, `placeholder()` etc). In Glide v3, options were handled individually by a series of complicated multityped builders. In Glide v4 these have been replaced by a single builder with a single type and a series of options objects that can be provided to the builder. Glide’s [generated API](https://bumptech.github.io/glide/doc/generatedapi.html) simplifies this further by merging options from the options objects and from any included integration libraries with the builder to create a single fluent API.
+One of the larger changes in Glide v4 is the way the library handles options (`centerCrop()`, `placeholder()` etc). In Glide v3, options were handled individually by a series of complicated multityped builders. In Glide v4 these have been replaced by a single builder with a single type and a series of options objects that can be provided to the builder. Glide’s [generated API](https://nickyshe.github.io/Glide-V4/#/Generated_API) simplifies this further by merging options from the options objects and from any included integration libraries with the builder to create a single fluent API.
 
 
 ### **RequestBuilder**
@@ -147,7 +147,7 @@ public final class YourAppGlideModule extends GlideModule {
 ```
 
 
-For more on using <code>[AppGlideModules](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code>, see the [configuration page](https://bumptech.github.io/glide/doc/configuration.html). Note that you will have to make sure to add a dependency on Glide’s annotation processor to ensure that Glide picks up your <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> implementation. For more information on how to set up the library, see the [download and setup page](https://bumptech.github.io/glide/doc/download-setup.html).
+For more on using <code>[AppGlideModules](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code>, see the [configuration page](https://nickyshe.github.io/Glide-V4/#/Configurations). Note that you will have to make sure to add a dependency on Glide’s annotation processor to ensure that Glide picks up your <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> implementation. For more information on how to set up the library, see the [download and setup page](https://nickyshe.github.io/Glide-V4/#/Download_Setup).
 
 
 ###  **TransitionOptions**
@@ -226,7 +226,7 @@ Glide.with(fragment)
 ### **Generated API**
 
 
- To make it even easier to use Glide v4, Glide now also offers a generated API for Applications. Applications can access the generated API by including an appropriately annotated <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> implementation. See the [Generated API](https://bumptech.github.io/glide/doc/generatedapi.html) page for details on how this works.
+ To make it even easier to use Glide v4, Glide now also offers a generated API for Applications. Applications can access the generated API by including an appropriately annotated <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> implementation. See the [Generated API](https://nickyshe.github.io/Glide-V4/#/Generated_API) page for details on how this works.
 
 
 You can still use the generated `RequestOptions` subclass to apply the same set of options to multiple loads, but generated `RequestBuilder` subclass may be more convenient in most cases.
@@ -348,7 +348,7 @@ Although it’s not required, it’s most performant to use the `RequestManager`
 In Glide v3, configuration is performed via one or more <code>[GlideModules](https://bumptech.github.io/glide/javadocs/360/com/bumptech/glide/module/GlideModule.html)</code>. In Glide v4, configuration is done via a similar but slightly more sophisticated system.
 
 
-For details on the new system, see the [Configuration](https://bumptech.github.io/glide/doc/configuration.html) page.
+For details on the new system, see the [Configuration](https://nickyshe.github.io/Glide-V4/#/Configurations) page.
 
 
 ### **Applications**
@@ -538,7 +538,7 @@ public final class MyModelLoader implements ModelLoader<File, InputStream> {
 #### **using()**
 
 
-The <code>[using()](https://bumptech.github.io/glide/javadocs/380/com/bumptech/glide/RequestManager.html#using(com.bumptech.glide.load.model.stream.StreamByteArrayLoader))</code> API was removed in Glide 4 to encourage users to [register](https://bumptech.github.io/glide/doc/configuration.html#registering-components) their components once with a <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> to avoid object re-use. Rather than creating a new <code>ModelLoader</code> each time you load an image, you register it once in an <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> and let Glide inspect your model (the object you pass to <code>[load()](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/RequestBuilder.html#load-java.lang.Object-)</code>) to figure out when to use your registered <code>ModelLoader</code>.
+The <code>[using()](https://bumptech.github.io/glide/javadocs/380/com/bumptech/glide/RequestManager.html#using(com.bumptech.glide.load.model.stream.StreamByteArrayLoader))</code> API was removed in Glide 4 to encourage users to [register](https://nickyshe.github.io/Glide-V4/#/Configurations) their components once with a <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> to avoid object re-use. Rather than creating a new <code>ModelLoader</code> each time you load an image, you register it once in an <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/module/AppGlideModule.html)</code> and let Glide inspect your model (the object you pass to <code>[load()](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/RequestBuilder.html#load-java.lang.Object-)</code>) to figure out when to use your registered <code>ModelLoader</code>.
 
 
 To make sure you only use your `ModelLoader` for certain models, implement `handles()` as shown above to inspect each model and return true only if your `ModelLoader` should be used.

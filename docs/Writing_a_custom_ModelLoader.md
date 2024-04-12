@@ -33,7 +33,7 @@
         * [getHeaders](#getheaders)
 * [Credits](#credits)
 
-Although Glide provides out of the box support for most common types of models (URLs, Uris, file paths etc), you may occasionally run into a type that Glide doesn’t support. You may also run in to cases where you want to customize or tweak Glide’s default behavior. You may even want to integrate a new way of fetching images or a new networking library beyond those available in Glide’s [integration libraries](https://bumptech.github.io/glide/int/about.html).
+Although Glide provides out of the box support for most common types of models (URLs, Uris, file paths etc), you may occasionally run into a type that Glide doesn’t support. You may also run in to cases where you want to customize or tweak Glide’s default behavior. You may even want to integrate a new way of fetching images or a new networking library beyond those available in Glide’s [integration libraries](https://nickyshe.github.io/Glide-V4/#/About).
 
 
 Fortunately Glide is extensible. To add support for a new type of model, you’ll need to follow three steps:
@@ -500,7 +500,7 @@ We’re almost done, but there’s one last step. Our `ModelLoader` implementati
 
 ###  **Adding the AppGlideModule**
 
-To do so, we’re going to follow the steps on [the configuration page](https://bumptech.github.io/glide/doc/configuration.html#applications) for our application and add an <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/440/com/bumptech/glide/module/AppGlideModule.html)</code> if you haven’t already done so:
+To do so, we’re going to follow the steps on [the configuration page](https://nickyshe.github.io/Glide-V4/#/Configurations) for our application and add an <code>[AppGlideModule](https://bumptech.github.io/glide/javadocs/440/com/bumptech/glide/module/AppGlideModule.html)</code> if you haven’t already done so:
 
 
 ```

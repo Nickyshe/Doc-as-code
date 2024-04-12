@@ -26,7 +26,7 @@ This guide will walk you through writing a failing test in Glide, step by step.
 
 1. Install and setup [Android Studio](https://developer.android.com/studio/index.html)
 2. Create an [Android Emulator in Android Studio](https://developer.android.com/studio/run/managing-avds.html#createavd), using x86 and API 26 should work well.
-3. Fork and Clone Glide, then open the project in Android Studio (see [the contributing page](https://bumptech.github.io/glide/dev/contributing.html#contribution-workflow) for more details)
+3. Fork and Clone Glide, then open the project in Android Studio (see [the contributing page](https://nickyshe.github.io/Glide-V4/#/Configurations) for more details)
 
 ## **Adding an Instrumentation Test**
 

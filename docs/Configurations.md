@@ -69,7 +69,7 @@ public class FlickrGlideModule extends AppGlideModule {
 
 
 
-Including Glide’s annotation processor requires Glide’s annotation processor. See the [Download and Setup Page](https://bumptech.github.io/glide/doc/download-setup.html#configuring-glide--annotation-processors) for details on how to set up that dependency.
+Including Glide’s annotation processor requires Glide’s annotation processor. See the [Download and Setup Page](https://nickyshe.github.io/Glide-V4/#/Download_Setup) for details on how to set up that dependency.
 
 
 #### **Libraries**

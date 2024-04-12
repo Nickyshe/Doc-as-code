@@ -1,8 +1,5 @@
 
 ##  **Caching**
-
-
-
 * [Caching in Glide](#caching-in-glide)
 * [Cache Keys](#cache-keys)
 * [Cache Configuration](#cache-configuration)
@@ -21,9 +18,9 @@
         * [Permanent size changes](#permanent-size-changes-1)
         * [Clearing the disk cache](#clearing-the-disk-cache)
 
+### **Caching in Glide**
 
 By default, Glide checks multiple layers of caches before starting a new request for an image:
-
 1. Active resources - Is this image displayed in another View right now?
 2. Memory cache - Was this image recently loaded and still in memory?
 3. Resource - Has this image been decoded, transformed, and written to the disk cache before?
@@ -149,7 +146,7 @@ If you’d just like to update the entry for an item in the cache, see the docum
 
 #### **Implementation**
 
-If the available options aren’t sufficient for your needs, you can also write your own <code>[DiskCache](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/load/engine/cache/DiskCache.html)</code> implementation. See the [configuration](https://bumptech.github.io/glide/doc/configuration.html#disk-cache) page for details.
+If the available options aren’t sufficient for your needs, you can also write your own <code>[DiskCache](https://bumptech.github.io/glide/javadocs/400/com/bumptech/glide/load/engine/cache/DiskCache.html)</code> implementation. See the [configuration](https://nickyshe.github.io/Glide-V4/#/Configurations) page for details.
 
 
 ### **Cache Invalidation**
@@ -248,7 +245,7 @@ By default Glide’s memory cache and <code>[BitmapPool](https://bumptech.github
 ##### **Permanent size changes**
 
 
-    To change the amount of RAM available to Glide across your application, see the [Configuration page](https://bumptech.github.io/glide/doc/configuration.html#memory-cache).
+    To change the amount of RAM available to Glide across your application, see the [Configuration page](https://nickyshe.github.io/Glide-V4/#/Configurations).
 
 
 ##### **Temporary size changes.**
