@@ -34,3 +34,4 @@ Start by visiting the [Download and Setup](https://nickyshe.github.io/Glide-V4/#
 
 # **Requirements**
 Glide v4 requires Android [Ice Cream Sandwich](https://developer.android.com/about/versions/android-4.0-highlights.html) (API level 14) or higher.
+
