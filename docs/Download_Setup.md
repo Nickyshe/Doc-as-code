@@ -3,7 +3,7 @@
 * [Download](#download)
     * [Gradle](#gradle)
     * [Maven](#maven)
-* [Setup]()
+* [Setup](#setup)
     * [Permissions](#permissions)
         * [Internet](#internet)
         * [Connectivity Monitoring](#connectivity-monitoring)
@@ -13,7 +13,7 @@
     * [Configuring Glide / Annotation Processors](#configuring-glide--annotation-processors)
         * [Java](#java)
         * [Kotlin - KAPT](#kotlin---kapt)
-        * [Kotlin - KSP](#kotlin---ksp)
+        * [Kotlin - KSP](#kotlin---kapt)
 
 
 ### **Android SDK Requirements**

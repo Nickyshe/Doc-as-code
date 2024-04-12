@@ -62,7 +62,7 @@ Glide.with(fragment)
     .into(imageView);
 ```
 
-For more information on using RequestOptions, see the [Options](https://nickyshe.github.io/Doc-as-code/#/Options) wiki page.
+For more information on using RequestOptions, see the [Options](https://nickyshe.github.io/Glide-V4/#/Options) wiki page.
 
 
 #### **Multiple Transformations.**
