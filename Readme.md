@@ -11,6 +11,7 @@ Before installing Docsify ensure you have node installed on your PC
 5. Perform the following command in your terminal
    - **git init** to initialize the repository
    - **git branch -M "your preferred branch name"** if you are not ok with your branch name
+   - **git remote add origin "your repository link**
 
 6. Install Docsify Command Line Interface (CLI). This will help initialize and preview the website locally
 
